@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gallery">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txt"
+        android:text="Gallery"
+        android:textSize="25dp"
+        android:textColor="#1556D8"
+        android:gravity="center"
+        android:fontFamily="cursive"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/pic1"
+        android:id="@+id/pic1"
+        android:layout_below="@id/txt"
+        android:layout_marginTop="20dp"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/launch"
+        android:layout_toRightOf="@id/pic1"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/pic2"
+        android:layout_below="@id/txt"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Launch of new web series"
+        android:id="@+id/txt2"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/pic1"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Launch of Everytainment"
+        android:id="@+id/txt3"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/txt2"
+        android:layout_below="@id/pic2"
+        android:layout_marginLeft="60dp"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/locklaunch"
+        android:id="@+id/pic3"
+        android:layout_below="@id/txt2"
+        android:layout_marginTop="20dp"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/bhaukaallaunch"
+        android:layout_toRightOf="@id/pic3"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/pic4"
+        android:layout_below="@id/txt3"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Launch of Lock Up "
+        android:id="@+id/txt4"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/pic3"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Launch of Bhaukaal"
+        android:id="@+id/txt5"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/txt4"
+        android:layout_below="@id/pic4"
+        android:layout_marginLeft="100dp"
+        android:gravity="center"/>
+
+</RelativeLayout>
